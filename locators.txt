@@ -1,0 +1,16 @@
+0 - //div[@id='mainContent']/div[1]/div[1]/div[1]/ul/li/a
+
+1 - //h2[contains(text(), 'Filter')]/following-sibling::ul
+
+2 - //h2[contains(text(), 'Filter')]/following-sibling::ul//h3/div[contains(text(), "US Shoe Size")]//ancestor::div[1]/following-sibling::div
+
+3 - //h2[contains(text(), 'Filter')]/following-sibling::ul//h3/div[contains(text(), "US Shoe Size")]//ancestor::div[1]/following-sibling::div//span[text()="10"]/ancestor::a//span/input[contains(@class, 'checkbox')]
+
+4 - //ul[contains(@class, "srp-result")]//div/a//span[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate('nike dunk low panda size 7 - 13', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))]/parent::div/parent::a
+
+5 - //a[@href="https://www.ebay.com/mys/home?source=GBH"]/following-sibling::div/ul/li/a[text()=" Summary"]
+Type "debugger;" in console to pause a web page
+
+Adnvanced
+
+5 - //ul/li/div/div[contains(@class, "s-item__info")]//span[number(translate(text(), "$", "")) > 20 and number(translate(text(), "$", "")) < 200]/parent::div/following-sibling::div/span[contains(text(), "Free shipping")]/ancestor::div[contains(@class, "item__wrapper")]//div[contains(@class, "star-rating")]/span[text()="5.0 out of 5 stars."]/parent::div/ following-sibling::span[contains(@class, "reviews-count")]/span[1][number(translate(text(), "()", ""))>=10] | //ul/li/div/div[contains(@class, "s-item__info")]//span[number(translate(text(), "$", "")) > 20 and number(translate(text(), "$", "")) < 200]/parent::div/following-sibling::div//span[contains(text(), "day")]/ancestor::div[contains(@class, "item__wrapper")]//div[contains(@class, "star-rating")]/span[text()="5.0 out of 5 stars."]/parent::div/following-sibling::span[contains(@class, "reviews-count")]/span[1][number(translate(text(), "()", ""))>=10]
